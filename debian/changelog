@@ -8,9 +8,9 @@ libfm (0.1.5-1) unstable; urgency=low
    - Install gio module
    - Install translations
   * debian/libfm-gtk0.install:
-   - Install the prefered applications chooser.
+   - Install the preferred applications chooser.
 
- -- Julien Lavergne <gilir@ubuntu.com>  Sun, 14 Mar 2010 14:28:30 +0100
+ -- Julien Lavergne <julien.lavergne@gmail.com>  Sun, 14 Mar 2010 14:28:30 +0100
 
 libfm (0.1~git20100217-0ubuntu2) lucid; urgency=low
 
