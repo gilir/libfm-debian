@@ -1,0 +1,57 @@
+This package was debianized by:
+
+    Julien Lavergne <gilir@ubuntu.com> on Sun, 20 Dec 2009 15:13:10 +0100
+
+It was downloaded from:
+
+    http://pcmanfm.git.sourceforge.net/
+
+Upstream Authors and Copyright Holders:
+
+    Copyright (C) 2009 Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+    Copyright 2009 Jürgen Hötzel <juergen@archlinux.org>
+
+    For src/gtk/exo/*
+    Copyright (c) 2004-2006 Benedikt Meurer <benny@xfce.org>
+    Copyright (c) 2008       Jannis Pohlmann <jannis@xfce.org>
+    Copyright (c) 2004-2006  os-cillation e.K.
+    Copyright (c) 2002,2004  Anders Carlsson <andersca@gnu.org>
+
+
+Licence for src/gtk/exo/*
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    You should have received a copy of the GNU Library General Public
+    License along with this library; if not, write to the
+    Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+    MA 02110-1301, USA.
+
+License for others files:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+The Debian packaging is (C) 2010, Julien Lavergne <gilir@ubuntu.com> and
+is licensed under the LGPL, see `/usr/share/common-licenses/LGPL-2'.

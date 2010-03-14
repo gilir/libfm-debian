@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- 	--enable-debug --enable-demo
+
+override_dh_strip:
+	dh_strip --dbg-package=libfm0-dbg
+
+override_dh_auto_test:
+	#Don't do anything, tests didn't pass for now

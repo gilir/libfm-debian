@@ -1,0 +1,61 @@
+Source: libfm
+Priority: extra
+Maintainer: Julien Lavergne <gilir@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~),
+               libglib2.0-dev (>= 2.16), 
+               libgtk2.0-dev (>= 2.16), 
+               libmenu-cache-dev (>= 0.3.2),
+               intltool
+Standards-Version: 3.8.4
+Section: libs
+Homepage: http://lxde.org
+
+Package: libfm-dev
+Section: libdevel
+Architecture: any
+Depends: libfm0 (= ${binary:Version}), 
+         libfm-gtk0 (= ${binary:Version}),
+         ${misc:Depends}
+Description: library for creating files manager - developments headers
+ Libfm is a glib/gio-based library used to develop file managers. It's used by
+ pcmanfm files manager.
+
+Package: libfm0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: library for creating files manager
+ Libfm is a glib/gio-based library used to develop file managers. It's used by
+ pcmanfm files manager.
+
+Package: libfm-gtk0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, 
+         ${misc:Depends}
+Description: library for creating files manager
+ Libfm is a glib/gio-based library used to develop file managers. It's used by
+ pcmanfm files manager.
+
+Package: libfm-utils
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: library for creating files manager - utilities
+ Libfm is a glib/gio-based library used to develop file managers. It's used by
+ pcmanfm files manager.
+
+Package: libfm0-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: libfm0 (= ${binary:Version}),
+         libfm-gtk0 (= ${binary:Version}),
+         ${misc:Depends}
+Description: library for creating files manager - utilities
+ Libfm is a glib/gio-based library used to develop file managers. It's used by
+ pcmanfm files manager.
+ .
+ This package contains the debugging symbols.

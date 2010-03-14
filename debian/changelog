@@ -1,0 +1,33 @@
+libfm (0.1.5-0) unstable; urgency=low
+
+  * New upstream release.
+  * debian/rules: 
+   - Enable debug
+   - Enable demo executable
+  * debian/libfm0.install: 
+   - Install gio module
+   - Install translations
+  * debian/libfm-gtk0.install:
+   - Install the prefered applications chooser.
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sun, 14 Mar 2010 14:28:30 +0100
+
+libfm (0.1~git20100217-0ubuntu2) lucid; urgency=low
+
+  * Rebuild for libmenu-cache0 > libmenu-cache1 migration (LP: #529030).
+  * debian/control : Build-depends on libmenu-cache-dev (>= 0.3.2). 
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 06 Mar 2010 00:53:31 +0100
+
+libfm (0.1~git20100217-0ubuntu1) lucid; urgency=low
+
+  * New git snpashot (75e958179c)
+  * debian/control: Build-depends on libmenu-cache-dev (>= 0.3).
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Thu, 18 Feb 2010 08:10:03 +0100
+
+libfm (0.1~git20100207-0ubuntu1) lucid; urgency=low
+
+  * Initial release (LP: #518187)
+
+ -- Julien Lavergne <gilir@ubuntu.com>  Sat, 06 Feb 2010 22:53:35 +0100
